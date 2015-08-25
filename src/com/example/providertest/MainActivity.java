@@ -72,7 +72,7 @@ getColumnIndex("price"));
         ContentValues values = new ContentValues(); 
         values.put("name", "A Storm of Swords"); 
         values.put("pages", 1219); 
-        values.put("price", 26.05); 
+        values.put("price", 26.65); 
         getContentResolver().update(uri, values, null, null); 
       } 
     }); 
