@@ -73,6 +73,7 @@ getColumnIndex("price"));
         values.put("name", "A Storm of Swords"); 
         values.put("pages", 1219); 
         values.put("price", 26.65); 
+        Log.d("Log","git");
         getContentResolver().update(uri, values, null, null); 
       } 
     }); 
